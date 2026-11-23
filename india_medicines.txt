@@ -1,0 +1,405 @@
+# Extra generic medicines (second list). The build tool reads this file together with india_medicines.txt.
+# --- Anaesthesia and strong pain relief
+lidocaine
+bupivacaine
+ropivacaine
+morphine
+fentanyl
+codeine
+pentazocine
+buprenorphine
+nalbuphine
+ketamine
+propofol
+midazolam
+thiopentone
+dexmedetomidine
+atracurium
+vecuronium
+succinylcholine
+neostigmine
+glycopyrrolate
+# --- More antibiotics and anti-TB
+ceftazidime
+cefoperazone
+cefepime
+ertapenem
+imipenem
+aztreonam
+tobramycin
+teicoplanin
+daptomycin
+tigecycline
+minocycline
+roxithromycin
+sulfadiazine
+trimethoprim
+chloramphenicol
+rifaximin
+ethionamide
+cycloserine
+bedaquiline
+clofazimine
+dapsone
+rifapentine
+# --- Malaria, worms and parasites
+sulfadoxine
+pyrimethamine
+mefloquine
+proguanil
+atovaquone
+tafenoquine
+pyrantel
+niclosamide
+diethylcarbamazine
+nitazoxanide
+paromomycin
+benzyl benzoate
+# --- Fungal and viral
+voriconazole
+posaconazole
+caspofungin
+micafungin
+flucytosine
+amphotericin b
+ganciclovir
+famciclovir
+ribavirin
+sofosbuvir
+daclatasvir
+entecavir
+nevirapine
+abacavir
+lopinavir
+ritonavir
+atazanavir
+darunavir
+raltegravir
+favipiravir
+remdesivir
+molnupiravir
+# --- More heart and blood medicines
+lercanidipine
+felodipine
+cilnidipine
+labetalol
+prazosin
+doxazosin
+terazosin
+captopril
+perindopril
+benazepril
+candesartan
+irbesartan
+azilsartan
+eplerenone
+amiloride
+triamterene
+metolazone
+acetazolamide
+mannitol
+nicorandil
+sotalol
+flecainide
+propafenone
+adenosine
+dobutamine
+dopamine
+vasopressin
+milrinone
+pitavastatin
+pravastatin
+lovastatin
+gemfibrozil
+niacin
+omega-3 acid ethyl esters
+alteplase
+tenecteplase
+streptokinase
+aminocaproic acid
+protamine
+fondaparinux
+acenocoumarol
+cilostazol
+pentoxifylline
+dipyridamole
+bosentan
+ambrisentan
+# --- More diabetes
+glibenclamide
+tolbutamide
+nateglinide
+alogliptin
+gemigliptin
+evogliptin
+ertugliflozin
+liraglutide
+semaglutide
+dulaglutide
+exenatide
+tirzepatide
+insulin glargine
+insulin aspart
+insulin lispro
+insulin degludec
+insulin detemir
+lobeglitazone
+miglitol
+# --- More stomach and gut
+aluminium hydroxide
+magnesium hydroxide
+magnesium trisilicate
+sodium alginate
+nizatidine
+cimetidine
+dexlansoprazole
+itopride
+mosapride
+prucalopride
+levosulpiride
+trimebutine
+mebeverine
+saccharomyces boulardii
+polyethylene glycol
+ispaghula
+liquid paraffin
+senna
+linaclotide
+prochlorperazine
+promethazine
+granisetron
+palonosetron
+aprepitant
+dimenhydrinate
+doxylamine
+azathioprine
+mercaptopurine
+balsalazide
+orlistat
+silymarin
+l-ornithine l-aspartate
+terlipressin
+octreotide
+pancrelipase
+# --- More breathing and allergy
+terbutaline
+fluticasone
+beclomethasone
+ciclesonide
+salmeterol
+indacaterol
+glycopyrronium
+umeclidinium
+aclidinium
+roflumilast
+zafirlukast
+ephedrine
+pseudoephedrine
+phenylephrine
+xylometazoline
+oxymetazoline
+levodropropizine
+carbocisteine
+erdosteine
+aminophylline
+desloratadine
+bilastine
+rupatadine
+azelastine
+ketotifen
+diphenhydramine
+cyproheptadine
+triprolidine
+# --- More steroids and hormones
+triamcinolone
+fludrocortisone
+prednisone
+cortisone
+liothyronine
+desmopressin
+cabergoline
+bromocriptine
+testosterone
+estradiol
+dydrogesterone
+drospirenone
+desogestrel
+norgestrel
+cyproterone
+danazol
+ulipristal
+raloxifene
+tibolone
+anastrozole
+tamoxifen
+exemestane
+megestrol
+teriparatide
+zoledronic acid
+ibandronate
+risedronate
+calcitonin
+alfacalcidol
+# --- More brain, mood and sleep
+clobazam
+lacosamide
+zonisamide
+perampanel
+vigabatrin
+ethosuximide
+primidone
+nitrazepam
+chlordiazepoxide
+buspirone
+trazodone
+vortioxetine
+desvenlafaxine
+fluvoxamine
+clomipramine
+imipramine
+doxepin
+agomelatine
+atomoxetine
+methylphenidate
+modafinil
+clozapine
+ziprasidone
+amisulpride
+sulpiride
+trifluoperazine
+chlorpromazine
+fluphenazine
+flupentixol
+lurasidone
+paliperidone
+asenapine
+brexpiprazole
+trihexyphenidyl
+amantadine
+selegiline
+rasagiline
+entacapone
+rivastigmine
+galantamine
+riluzole
+pyridostigmine
+naltrexone
+acamprosate
+disulfiram
+methadone
+varenicline
+zopiclone
+eszopiclone
+rizatriptan
+zolmitriptan
+naratriptan
+eletriptan
+ergotamine
+pizotifen
+# --- More muscles, bones and joints
+orphenadrine
+eperisone
+tolperisone
+dantrolene
+diacerein
+glucosamine
+chondroitin
+penicillamine
+cyclophosphamide
+mycophenolate
+tacrolimus
+cyclosporine
+tofacitinib
+baricitinib
+apremilast
+probenecid
+benzbromarone
+# --- More urine, prostate and sexual health
+alfuzosin
+silodosin
+mirabegron
+tolterodine
+darifenacin
+trospium
+flavoxate
+bethanechol
+vardenafil
+avanafil
+phenazopyridine
+potassium citrate
+# --- More women's health
+dinoprostone
+carboprost
+magnesium sulfate
+hydroxyprogesterone
+ormeloxifene
+myo-inositol
+# --- More vitamins and minerals
+vitamin e
+riboflavin
+niacinamide
+biotin
+calcium pantothenate
+methylcobalamin
+folinic acid
+ferrous sulphate
+ferrous fumarate
+ferrous ascorbate
+iron sucrose
+ferric carboxymaltose
+iron polymaltose
+magnesium
+selenium
+l-carnitine
+coenzyme q10
+# --- Skin, eye and ear
+tretinoin
+pimecrolimus
+calcipotriol
+salicylic acid
+urea
+silver sulfadiazine
+neomycin
+framycetin
+bacitracin
+povidone iodine
+hydroquinone
+azelaic acid
+tolnaftate
+luliconazole
+sertaconazole
+miconazole
+ciclopirox
+amorolfine
+selenium sulfide
+brimonidine
+dorzolamide
+brinzolamide
+travoprost
+bimatoprost
+pilocarpine
+tropicamide
+cyclopentolate
+carboxymethylcellulose
+# --- Emergency, poisoning and fluids
+calcium gluconate
+sodium chloride
+dextrose
+flumazenil
+activated charcoal
+pralidoxime
+hydroxocobalamin
+dimercaprol
+deferoxamine
+deferasirox
+methylene blue
+# --- Common cancer medicines
+imatinib
+capecitabine
+fluorouracil
+paclitaxel
+cisplatin
+carboplatin
+doxorubicin
+bicalutamide
+hydroxyurea

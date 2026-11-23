@@ -1,25 +1,14 @@
-# Welcome to your ReadMe docs 👋
+# Adding more medicines (up to 1000+)
 
-This repo is the home for your [ReadMe](https://readme.com) documentation. Everything here, including guides, API references, and custom pages, shows up on your docs site.
+Files here:
+- `india_medicines.txt` and `india_medicines_extended.txt` - about 640 generic medicines used in India (add your own names, one per line).
+- `build_database.py` - makes side effects, uses, precautions and interactions from official FDA drug labels.
+- `import_ddinter.py` - adds many more interactions from the free DDInter database.
 
-The easiest way to work on your docs locally is with the [`@readme/cli`](https://www.npmjs.com/package/@readme/cli). Here are a few commands to get you started:
+Steps (project folder, venv active, internet on, Gemini key in api_keys.py):
+1. `python data_tools/build_database.py`            (about 172 missing medicines, 15-30 minutes; safe to stop and run again)
+2. Download the DDInter CSV files into `data_tools/ddinter/`, then `python data_tools/import_ddinter.py`
+3. Restart the app. New medicines appear with a warning: "Auto-summarised from the official FDA drug label".
 
-Lint your docs:
-
-```sh
-npx @readme/cli lint
-```
-
-Configure linting for every branch via GitHub Actions:
-
-```sh
-npx @readme/cli setup:github
-```
-
-Or view the full list. You can preview docs locally, validate your OAS specs, install AI skills and more:
-
-```sh
-npx @readme/cli --help
-```
-
-Want to learn more? Read [about ReadMe](https://docs.readme.com/main/docs/about-readme) or browse the [`@readme/cli` on npm](https://www.npmjs.com/package/@readme/cli).
+To go beyond 300: add more names to `india_medicines.txt` (for example from the National List of Essential Medicines 2022 or the WHO Essential Medicines List) and run step 1 again.
+Medicines with no FDA label (some Indian-only products) are listed at the end - add those by hand or skip them.

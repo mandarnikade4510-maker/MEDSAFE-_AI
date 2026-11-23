@@ -1,0 +1,2043 @@
+{
+ "_note": "Educational dataset for MedSafe AI. Not medical advice. Review with a pharmacist or doctor before real-world use.",
+ "groups": {
+  "NEW_NSAIDS": [
+   "etoricoxib",
+   "nimesulide",
+   "mefenamic acid"
+  ],
+  "NEW_DIAB": [
+   "vildagliptin",
+   "dapagliflozin",
+   "teneligliptin"
+  ],
+  "CHELATORS": [
+   "calcium",
+   "iron",
+   "zinc",
+   "sucralfate"
+  ]
+ },
+ "synonyms": {
+  "monurol": "fosfomycin",
+  "macrobid": "nitrofurantoin",
+  "oflox": "ofloxacin",
+  "zanocin": "ofloxacin",
+  "zinnat": "cefuroxime",
+  "ceftum": "cefuroxime",
+  "cepodem": "cefpodoxime",
+  "doxcef": "cefpodoxime",
+  "ivecop": "ivermectin",
+  "stromectol": "ivermectin",
+  "zentel": "albendazole",
+  "bandy": "albendazole",
+  "perinorm": "metoclopramide",
+  "reglan": "metoclopramide",
+  "galvus": "vildagliptin",
+  "vysov": "vildagliptin",
+  "forxiga": "dapagliflozin",
+  "oxra": "dapagliflozin",
+  "tenepia": "teneligliptin",
+  "arcoxia": "etoricoxib",
+  "nucoxia": "etoricoxib",
+  "meftal": "mefenamic acid",
+  "mefenamic": "mefenamic acid",
+  "ponstan": "mefenamic acid",
+  "sirdalud": "tizanidine",
+  "nizral": "ketoconazole",
+  "lamisil": "terbinafine",
+  "zovirax": "acyclovir",
+  "ambrodil": "ambroxol",
+  "betavert": "betahistine",
+  "vertin": "betahistine",
+  "betaserc": "betahistine",
+  "duphalac": "lactulose",
+  "sucral": "sucralfate",
+  "shelcal": "calcium",
+  "calcirol": "cholecalciferol",
+  "vitamin d3": "cholecalciferol",
+  "vitamin d": "cholecalciferol",
+  "feronia": "iron",
+  "folic": "folic acid",
+  "vitamin b12": "methylcobalamin",
+  "susten": "progesterone",
+  "utrogestan": "progesterone",
+  "tranexamic": "tranexamic acid",
+  "chlorphenamine": "chlorpheniramine",
+  "ferrous": "iron",
+  "ofloxacin tablet": "ofloxacin",
+  "relentus": "tizanidine",
+  "progut": "esomeprazole",
+  "himox": "amoxicillin",
+  "hexigel": "chlorhexidine",
+  "ultrafen": "diclofenac",
+  "clavulanate": "clavulanic acid",
+  "clavulanic": "clavulanic acid",
+  "chlorhexidine gluconate": "chlorhexidine",
+  "thyrox": "levothyroxine",
+  "arvast": "rosuvastatin",
+  "beplex forte": "vitamin b complex",
+  "bplex forte": "vitamin b complex",
+  "beplex": "vitamin b complex",
+  "bplex": "vitamin b complex",
+  "b complex": "vitamin b complex",
+  "vitamin b 12": "methylcobalamin",
+  "vitamin d 3": "cholecalciferol"
+ },
+ "medicines": {
+  "fosfomycin": {
+   "uses": "Uncomplicated urinary tract infection (bladder infection) in adults - usually a single sachet dose (for example Monurol).",
+   "common": [
+    "Diarrhea",
+    "Nausea",
+    "Headache",
+    "Stomach discomfort"
+   ],
+   "serious": [
+    "Severe allergic reaction (rash, swelling, trouble breathing)",
+    "Severe or bloody diarrhea",
+    "Symptoms not improving within 2-3 days"
+   ],
+   "precautions": "Dissolve the sachet in a glass of water (about 200 ml) and drink it at once, on an empty stomach (2-3 hours before or after food), preferably at bedtime after emptying the bladder. Do not store the mixed solution. Medicines that speed up the gut (metoclopramide, domperidone) may lower its effect. See a doctor if symptoms last beyond 2-3 days."
+  },
+  "nitrofurantoin": {
+   "uses": "Urinary tract infection (bladder infection), short-term.",
+   "common": [
+    "Nausea",
+    "Headache",
+    "Loss of appetite",
+    "Dark yellow or brown urine (harmless)"
+   ],
+   "serious": [
+    "New cough, fever or breathlessness (lung reaction)",
+    "Liver problems (yellow skin or eyes)",
+    "Numbness or tingling in hands or feet",
+    "Severe allergic reaction"
+   ],
+   "precautions": "Take with food. Not suitable when kidney function is poor. Report any new cough or breathlessness. Long courses need monitoring."
+  },
+  "ofloxacin": {
+   "uses": "Bacterial infections (urinary, chest, ear, skin, stomach/bowel).",
+   "common": [
+    "Nausea",
+    "Diarrhea",
+    "Headache",
+    "Dizziness",
+    "Trouble sleeping"
+   ],
+   "serious": [
+    "Tendon pain or rupture",
+    "Nerve damage (tingling, numbness)",
+    "Seizures",
+    "Irregular heartbeat",
+    "Blood sugar swings",
+    "Severe diarrhea"
+   ],
+   "precautions": "Stop and call your doctor if a tendon hurts. Take 2 hours before or 6 hours after antacids, calcium, iron or zinc. Drink plenty of fluids. Protect skin from sun."
+  },
+  "cefuroxime": {
+   "uses": "Bacterial infections (throat, ear, chest, urinary tract, skin).",
+   "common": [
+    "Diarrhea",
+    "Nausea",
+    "Stomach pain",
+    "Headache"
+   ],
+   "serious": [
+    "Severe allergic reaction",
+    "Severe or bloody diarrhea",
+    "Rash with blistering"
+   ],
+   "precautions": "Take after food for better absorption. Tell your doctor if you are allergic to penicillin or cephalosporins. Complete the course."
+  },
+  "cefpodoxime": {
+   "uses": "Bacterial infections (throat, ear, chest, urinary tract, skin).",
+   "common": [
+    "Diarrhea",
+    "Nausea",
+    "Stomach pain",
+    "Headache"
+   ],
+   "serious": [
+    "Severe allergic reaction",
+    "Severe or bloody diarrhea",
+    "Rash with blistering"
+   ],
+   "precautions": "Take with food. Acid-reducing medicines can lower its absorption. Tell your doctor if you are allergic to penicillin or cephalosporins. Complete the course."
+  },
+  "ornidazole": {
+   "uses": "Gut and genital infections caused by amoeba, giardia and anaerobic bacteria.",
+   "common": [
+    "Metallic taste",
+    "Nausea",
+    "Dizziness",
+    "Headache",
+    "Tiredness"
+   ],
+   "serious": [
+    "Nerve problems (numbness, unsteady walking) with long use",
+    "Seizures",
+    "Severe skin reaction",
+    "Liver problems"
+   ],
+   "precautions": "Avoid alcohol during treatment and for 48 hours after. Take after food. Complete the course."
+  },
+  "ivermectin": {
+   "uses": "Parasitic infections such as threadworm, scabies and lice.",
+   "common": [
+    "Dizziness",
+    "Nausea",
+    "Diarrhea",
+    "Itching or rash (from dying parasites)"
+   ],
+   "serious": [
+    "Severe allergic reaction",
+    "Confusion or seizures (rare)",
+    "Eye pain or vision problems"
+   ],
+   "precautions": "Dose depends on body weight - take only as prescribed. Not a proven treatment for viral infections such as COVID-19. Avoid in pregnancy unless a doctor advises."
+  },
+  "albendazole": {
+   "uses": "Worm infections (roundworm, hookworm, whipworm, tapeworm).",
+   "common": [
+    "Stomach pain",
+    "Nausea",
+    "Headache",
+    "Dizziness"
+   ],
+   "serious": [
+    "Liver problems (yellow skin or eyes, dark urine)",
+    "Low blood counts (fever, infection, bruising)",
+    "Severe rash",
+    "Seizures"
+   ],
+   "precautions": "Take with a fatty meal for better absorption. Avoid in pregnancy. Long courses need blood and liver tests."
+  },
+  "ketoconazole": {
+   "uses": "Serious fungal infections when other treatment is not suitable (tablets). Creams and shampoos are used on the skin.",
+   "common": [
+    "Nausea",
+    "Stomach pain",
+    "Headache",
+    "Itching"
+   ],
+   "serious": [
+    "Serious liver damage (yellow skin or eyes, dark urine, severe tiredness)",
+    "Irregular heartbeat",
+    "Low cortisol (weakness, dizziness)"
+   ],
+   "precautions": "Tablets are restricted because of liver risk - needs liver tests. Avoid alcohol. Many serious interactions - always tell your pharmacist."
+  },
+  "terbinafine": {
+   "uses": "Fungal infections of the skin and nails.",
+   "common": [
+    "Headache",
+    "Stomach upset",
+    "Rash",
+    "Taste changes"
+   ],
+   "serious": [
+    "Liver problems (yellow skin or eyes, dark urine)",
+    "Severe skin reaction",
+    "Low blood counts",
+    "Loss of taste that does not return"
+   ],
+   "precautions": "Liver tests are advised for long courses. It can raise levels of some heart, mood and BP medicines - tell your pharmacist."
+  },
+  "acyclovir": {
+   "uses": "Herpes (cold sores, genital herpes), shingles and chickenpox.",
+   "common": [
+    "Nausea",
+    "Headache",
+    "Diarrhea",
+    "Tiredness"
+   ],
+   "serious": [
+    "Kidney problems (especially if dehydrated)",
+    "Confusion or hallucinations (high doses, older adults)",
+    "Severe allergic reaction"
+   ],
+   "precautions": "Drink plenty of water. Dose is lowered in kidney disease. Start as early as possible after symptoms begin."
+  },
+  "metoclopramide": {
+   "uses": "Nausea, vomiting and slow stomach emptying (for example Perinorm).",
+   "common": [
+    "Drowsiness",
+    "Restlessness",
+    "Tiredness",
+    "Diarrhea"
+   ],
+   "serious": [
+    "Involuntary movements or muscle spasms (stop and call a doctor)",
+    "High fever with stiffness",
+    "Low mood",
+    "Fast or irregular heartbeat"
+   ],
+   "precautions": "Short-term use only (usually not more than 5 days). Not for children or young adults unless a doctor advises. Do not drive if drowsy."
+  },
+  "ambroxol": {
+   "uses": "Cough with thick mucus - helps loosen phlegm.",
+   "common": [
+    "Nausea",
+    "Stomach discomfort",
+    "Taste changes",
+    "Dry mouth"
+   ],
+   "serious": [
+    "Severe allergic or skin reaction (rare)"
+   ],
+   "precautions": "Drink plenty of fluids. Not for very young children unless a doctor advises."
+  },
+  "dextromethorphan": {
+   "uses": "Dry, irritating cough (cough suppressant).",
+   "common": [
+    "Drowsiness",
+    "Dizziness",
+    "Nausea",
+    "Stomach upset"
+   ],
+   "serious": [
+    "Serotonin syndrome with antidepressants (fever, agitation, rigidity)",
+    "Hallucinations or slow breathing at high doses",
+    "Severe allergic reaction"
+   ],
+   "precautions": "Not for a cough with lots of phlegm. Never combine with MAO inhibitors. Not for young children. Do not take more than the label dose."
+  },
+  "chlorpheniramine": {
+   "uses": "Allergies, runny nose, itching and hives (a sedating antihistamine, also called chlorphenamine).",
+   "common": [
+    "Drowsiness",
+    "Dry mouth",
+    "Blurred vision",
+    "Difficulty passing urine"
+   ],
+   "serious": [
+    "Confusion (especially in older adults)",
+    "Fast heartbeat",
+    "Severe allergic reaction"
+   ],
+   "precautions": "Avoid driving and alcohol. Use caution with glaucoma or an enlarged prostate."
+  },
+  "betahistine": {
+   "uses": "Vertigo and Meniere's disease.",
+   "common": [
+    "Nausea",
+    "Headache",
+    "Stomach upset",
+    "Bloating"
+   ],
+   "serious": [
+    "Severe allergic reaction",
+    "Severe skin reaction"
+   ],
+   "precautions": "Take with food. Use caution with asthma or stomach ulcers."
+  },
+  "tizanidine": {
+   "uses": "Muscle spasm and stiffness (muscle relaxant).",
+   "common": [
+    "Drowsiness",
+    "Dry mouth",
+    "Dizziness",
+    "Tiredness",
+    "Low blood pressure"
+   ],
+   "serious": [
+    "Liver problems",
+    "Very low blood pressure or fainting",
+    "Slow heartbeat",
+    "Hallucinations"
+   ],
+   "precautions": "NEVER combine with ciprofloxacin. Avoid alcohol. Rise slowly. Do not stop suddenly after long use."
+  },
+  "thiocolchicoside": {
+   "uses": "Painful muscle spasm (muscle relaxant).",
+   "common": [
+    "Drowsiness",
+    "Diarrhea",
+    "Stomach upset"
+   ],
+   "serious": [
+    "Seizures (especially if you have epilepsy)",
+    "Severe allergic reaction"
+   ],
+   "precautions": "Short-term use only. Avoid in pregnancy and breastfeeding. Report any seizure or unusual movements."
+  },
+  "etoricoxib": {
+   "uses": "Pain and inflammation in arthritis and gout.",
+   "common": [
+    "Stomach upset",
+    "Headache",
+    "Dizziness",
+    "Swelling of feet",
+    "Raised blood pressure"
+   ],
+   "serious": [
+    "Heart attack or stroke",
+    "Stomach bleeding (black stools)",
+    "Kidney problems",
+    "Severe allergic reaction"
+   ],
+   "precautions": "Not for people with heart disease or uncontrolled high BP. Use the lowest dose for the shortest time. Take with food."
+  },
+  "nimesulide": {
+   "uses": "Short-term relief of pain and fever.",
+   "common": [
+    "Stomach upset",
+    "Nausea",
+    "Dizziness",
+    "Sweating"
+   ],
+   "serious": [
+    "Liver damage (yellow skin or eyes, dark urine)",
+    "Stomach bleeding",
+    "Severe allergic reaction"
+   ],
+   "precautions": "Not for children under 12. Short courses only (not more than 15 days). Avoid with liver disease or alcohol. Stop and see a doctor if you turn yellow."
+  },
+  "mefenamic acid": {
+   "uses": "Period pain, mild to moderate pain and fever.",
+   "common": [
+    "Stomach upset",
+    "Diarrhea",
+    "Nausea",
+    "Headache"
+   ],
+   "serious": [
+    "Stomach bleeding",
+    "Kidney problems",
+    "Severe skin reaction",
+    "Severe diarrhea"
+   ],
+   "precautions": "Take with food. Short-term use only (about a week). Avoid with stomach ulcers or kidney disease."
+  },
+  "drotaverine": {
+   "uses": "Cramping pain in the stomach, bladder or periods (antispasmodic).",
+   "common": [
+    "Dizziness",
+    "Headache",
+    "Nausea",
+    "Fast heartbeat"
+   ],
+   "serious": [
+    "Very low blood pressure",
+    "Severe allergic reaction"
+   ],
+   "precautions": "Not for severe heart, liver or kidney failure. Rise slowly."
+  },
+  "lactulose": {
+   "uses": "Constipation (and, on a doctor's advice, liver-related confusion).",
+   "common": [
+    "Bloating",
+    "Gas",
+    "Stomach cramps",
+    "Diarrhea if the dose is too high"
+   ],
+   "serious": [
+    "Severe diarrhea with dehydration",
+    "Severe belly pain"
+   ],
+   "precautions": "Works in 1-2 days. Drink plenty of fluids. It contains some sugars - tell your doctor if you have diabetes."
+  },
+  "sucralfate": {
+   "uses": "Stomach and intestinal ulcers (coats and protects the lining).",
+   "common": [
+    "Constipation",
+    "Dry mouth",
+    "Nausea",
+    "Back pain"
+   ],
+   "serious": [
+    "Severe allergic reaction",
+    "Aluminium build-up in kidney disease"
+   ],
+   "precautions": "Take on an empty stomach, 1 hour before meals. Keep 2 hours apart from other medicines or they may not be absorbed."
+  },
+  "vildagliptin": {
+   "uses": "Type 2 diabetes (a DPP-4 inhibitor).",
+   "common": [
+    "Headache",
+    "Dizziness",
+    "Tremor",
+    "Constipation"
+   ],
+   "serious": [
+    "Pancreatitis (severe belly pain, vomiting)",
+    "Liver problems",
+    "Swelling of face or lips (especially with ACE inhibitors)"
+   ],
+   "precautions": "Liver tests are done from time to time. Stop and get help for severe belly pain."
+  },
+  "dapagliflozin": {
+   "uses": "Type 2 diabetes, heart failure and chronic kidney disease (an SGLT2 inhibitor).",
+   "common": [
+    "Genital yeast infection",
+    "Urinary infection",
+    "Increased urination",
+    "Thirst"
+   ],
+   "serious": [
+    "Diabetic ketoacidosis (nausea, vomiting, tiredness, fast breathing) even with normal sugar",
+    "Dehydration or low blood pressure",
+    "Severe pain or swelling in the genital area with fever"
+   ],
+   "precautions": "Stay hydrated. Ask your doctor about pausing it before surgery or when very unwell. Keep the genital area clean."
+  },
+  "teneligliptin": {
+   "uses": "Type 2 diabetes (a DPP-4 inhibitor).",
+   "common": [
+    "Constipation",
+    "Stomach upset",
+    "Low blood sugar (when combined with other diabetes medicines)"
+   ],
+   "serious": [
+    "Pancreatitis (severe belly pain)",
+    "Severe allergic reaction",
+    "Irregular heartbeat"
+   ],
+   "precautions": "Use caution with heart rhythm problems. Stop and get help for severe belly pain."
+  },
+  "tranexamic acid": {
+   "uses": "Heavy periods and bleeding (reduces bleeding).",
+   "common": [
+    "Nausea",
+    "Diarrhea",
+    "Headache",
+    "Dizziness"
+   ],
+   "serious": [
+    "Blood clots (leg swelling or pain, chest pain, sudden breathlessness)",
+    "Vision changes",
+    "Seizures at high doses"
+   ],
+   "precautions": "Not for people with a history of blood clots or clotting disorders. Dose is lowered in kidney disease."
+  },
+  "calcium": {
+   "uses": "Calcium supplement for bones (often combined with vitamin D3, for example Shelcal).",
+   "common": [
+    "Constipation",
+    "Gas",
+    "Bloating"
+   ],
+   "serious": [
+    "Too much calcium (nausea, thirst, confusion, kidney stones)"
+   ],
+   "precautions": "Take with food. Keep 2-4 hours away from levothyroxine, iron, and quinolone or tetracycline antibiotics. Do not exceed the advised dose."
+  },
+  "iron": {
+   "uses": "Iron deficiency and anaemia (ferrous salts such as ferrous ascorbate, for example Feronia).",
+   "common": [
+    "Dark or black stools (harmless)",
+    "Constipation",
+    "Nausea",
+    "Stomach upset",
+    "Metallic taste"
+   ],
+   "serious": [
+    "Severe stomach pain or vomiting blood",
+    "Severe allergic reaction",
+    "Iron overdose in children is a medical emergency"
+   ],
+   "precautions": "Keep out of children's reach. Take with food if it upsets the stomach. Avoid tea, coffee, milk and calcium near the dose. Needs a blood test to check response."
+  },
+  "zinc": {
+   "uses": "Zinc supplement (deficiency, diarrhea in children, immunity support).",
+   "common": [
+    "Nausea",
+    "Metallic taste",
+    "Stomach upset"
+   ],
+   "serious": [
+    "Copper deficiency with long-term high doses",
+    "Severe allergic reaction"
+   ],
+   "precautions": "Take with food if it upsets the stomach. Keep 2-4 hours apart from quinolone and tetracycline antibiotics. Do not exceed the advised dose."
+  },
+  "cholecalciferol": {
+   "uses": "Vitamin D3 - vitamin D deficiency and bone health (for example Calcirol).",
+   "common": [
+    "Usually well tolerated at the right dose",
+    "Mild stomach upset"
+   ],
+   "serious": [
+    "Too much vitamin D: high calcium (nausea, thirst, frequent urination, confusion, kidney stones)"
+   ],
+   "precautions": "Take with a fatty meal. High-dose weekly sachets must be taken only on the schedule given. Do not combine several vitamin D products without asking a doctor."
+  },
+  "folic acid": {
+   "uses": "Folate deficiency anaemia and prevention of neural tube defects in pregnancy.",
+   "common": [
+    "Usually well tolerated",
+    "Mild nausea",
+    "Bloating"
+   ],
+   "serious": [
+    "Severe allergic reaction (rare)"
+   ],
+   "precautions": "Can hide vitamin B12 deficiency - get B12 checked. Can lower phenytoin levels."
+  },
+  "methylcobalamin": {
+   "uses": "Vitamin B12 - deficiency, nerve health (for example in Neurobion-type products).",
+   "common": [
+    "Usually well tolerated",
+    "Mild nausea",
+    "Diarrhea"
+   ],
+   "serious": [
+    "Severe allergic reaction (rare)"
+   ],
+   "precautions": "Long-term use is often needed with metformin or a vegetarian diet. Get B12 levels checked."
+  },
+  "progesterone": {
+   "uses": "Support in pregnancy and menstrual disorders when prescribed by a doctor (for example Susten, Utrogestan).",
+   "common": [
+    "Drowsiness",
+    "Dizziness",
+    "Breast tenderness",
+    "Headache",
+    "Bloating"
+   ],
+   "serious": [
+    "Blood clots (leg swelling or pain, chest pain, sudden breathlessness)",
+    "Severe allergic reaction",
+    "Unexplained heavy vaginal bleeding",
+    "Liver problems"
+   ],
+   "precautions": "Use only as prescribed by your gynaecologist. May cause drowsiness - take at bedtime if advised. Do not stop suddenly in early pregnancy without advice."
+  },
+  "serratiopeptidase": {
+   "uses": "Reduces swelling and inflammation after injury, surgery or dental work (an enzyme, usually combined with a painkiller).",
+   "common": [
+    "Nausea",
+    "Stomach upset",
+    "Loss of appetite",
+    "Mild skin rash"
+   ],
+   "serious": [
+    "Severe allergic reaction",
+    "Unusual bruising or bleeding",
+    "New cough or breathlessness (rare)"
+   ],
+   "precautions": "Swallow tablets whole. Use caution with blood thinners and tell your doctor before any surgery, because it may add to bleeding risk."
+  },
+  "chlorhexidine": {
+   "uses": "Antiseptic for gum inflammation (gingivitis), mouth ulcers, dental plaque and mouth hygiene (gel, paint or mouthwash, for example Hexigel).",
+   "common": [
+    "Taste change",
+    "Staining of teeth or tongue",
+    "Dry mouth",
+    "Mild burning or irritation"
+   ],
+   "serious": [
+    "Severe allergic reaction (swelling, rash, trouble breathing)",
+    "Mouth sores or peeling of the mouth lining"
+   ],
+   "precautions": "For the mouth only - do not swallow. Use after brushing or meals and avoid rinsing, eating or drinking for about 30 minutes. Tea, coffee and smoking increase staining. Keep away from eyes and ears."
+  },
+  "clavulanic acid": {
+   "uses": "Added to amoxicillin (as in Augmentin) so it works against bacteria that resist amoxicillin alone.",
+   "common": [
+    "Diarrhea",
+    "Nausea",
+    "Vomiting",
+    "Vaginal or oral thrush"
+   ],
+   "serious": [
+    "Liver problems (yellow skin or eyes, dark urine)",
+    "Severe allergic reaction",
+    "Severe or bloody diarrhea"
+   ],
+   "precautions": "Take at the start of a meal to reduce stomach upset. Tell your doctor if you are allergic to penicillin. Complete the course. Liver problems are more likely with long courses and in older adults."
+  },
+  "misoprostol": {
+   "uses": "Protects the stomach from ulcers caused by NSAID painkillers (for example in diclofenac + misoprostol tablets). Also used in gynaecology only under medical supervision.",
+   "common": [
+    "Diarrhea",
+    "Stomach cramps",
+    "Nausea",
+    "Gas",
+    "Headache"
+   ],
+   "serious": [
+    "Can cause miscarriage, heavy bleeding and birth defects - must NOT be taken in pregnancy",
+    "Heavy vaginal bleeding",
+    "Severe belly pain",
+    "Severe or long-lasting diarrhea"
+   ],
+   "precautions": "Women who could become pregnant need a pregnancy test and reliable contraception first - ask your doctor. Take with food. Magnesium-containing antacids can worsen diarrhea."
+  },
+  "glucosamine": {
+   "uses": "Supplement for osteoarthritis joint pain (often combined with chondroitin, for example Cartilex). Benefit builds slowly over weeks.",
+   "common": [
+    "Nausea",
+    "Heartburn",
+    "Diarrhea or constipation",
+    "Headache"
+   ],
+   "serious": [
+    "Allergic reaction (some products are made from shellfish)",
+    "Raised blood sugar in people with diabetes",
+    "Bleeding or high INR with warfarin"
+   ],
+   "precautions": "Take with food. Use caution with shellfish allergy, diabetes or asthma. Avoid in pregnancy and breastfeeding unless a doctor advises."
+  },
+  "chondroitin": {
+   "uses": "Supplement for osteoarthritis joint pain (usually combined with glucosamine). Benefit builds slowly over weeks.",
+   "common": [
+    "Nausea",
+    "Stomach upset",
+    "Diarrhea or constipation",
+    "Headache"
+   ],
+   "serious": [
+    "Allergic reaction",
+    "Bleeding or bruising with blood thinners"
+   ],
+   "precautions": "Take with food. Tell your doctor if you take warfarin or other blood thinners. Avoid in pregnancy and breastfeeding unless a doctor advises."
+  },
+  "fenofibrate": {
+   "uses": "High triglycerides and mixed high cholesterol (often combined with a statin, for example Arvast F).",
+   "common": [
+    "Stomach pain",
+    "Nausea",
+    "Diarrhea",
+    "Headache",
+    "Raised liver enzymes on blood tests"
+   ],
+   "serious": [
+    "Muscle pain, weakness or dark urine (muscle damage, more likely with a statin)",
+    "Gallstones (pain in the upper right belly)",
+    "Liver problems (yellow skin or eyes)",
+    "Pancreatitis (severe belly pain)",
+    "Kidney problems"
+   ],
+   "precautions": "Needs regular blood tests (liver, kidney, cholesterol). Not for severe liver, kidney or gallbladder disease. Tell your doctor if you take warfarin or a statin. Report unexplained muscle pain at once."
+  },
+  "vitamin b complex": {
+   "uses": "Vitamin B-complex deficiency and general nutritional support (for example Beplex Forte tablets: B1, B2, B3, B5, B6, B7, B9, B12 with vitamin C).",
+   "common": [
+    "Bright yellow urine (harmless)",
+    "Nausea",
+    "Stomach upset",
+    "Mild diarrhea or constipation at high doses"
+   ],
+   "serious": [
+    "Severe allergic reaction (rash, swelling, trouble breathing)",
+    "Numbness or tingling in hands or feet from very high doses of vitamin B6 taken for a long time"
+   ],
+   "precautions": "Take after food. Do not take more than the advised daily dose. Tell your doctor if you take phenytoin or levodopa. It does not replace a balanced diet."
+  },
+  "amlodipine": {
+   "uses": "High blood pressure (hypertension) and angina (chest pain from reduced blood flow to the heart). A calcium channel blocker taken once a day (for example Amlong, Norvasc, Stamlo).",
+   "common": [
+    "Swelling of ankles or feet",
+    "Flushing or warmth in the face",
+    "Headache",
+    "Dizziness",
+    "Tiredness",
+    "Palpitations",
+    "Nausea or stomach pain",
+    "Swollen gums with long use"
+   ],
+   "serious": [
+    "Chest pain that gets worse or a new heart attack (rare, mainly after starting or raising the dose)",
+    "Severe dizziness or fainting",
+    "Yellow skin or eyes (liver problem)",
+    "Severe allergic reaction (swelling of face or lips, trouble breathing)",
+    "Very swollen legs with breathlessness"
+   ],
+   "precautions": "Take once a day at the same time, with or without food. Rise slowly from sitting or lying down. Do not stop suddenly without asking your doctor. Check blood pressure regularly. Tell your doctor if you have liver disease or severe heart problems. Report swelling that does not go away. Simvastatin doses above 20 mg a day should not be combined with it.",
+   "override": true
+  },
+  "levothyroxine": {
+   "uses": "Underactive thyroid (hypothyroidism) and after thyroid surgery - replaces the thyroid hormone T4 (for example Thyrox, Eltroxin, Thyronorm).",
+   "common": [
+    "Usually well tolerated at the right dose",
+    "Headache",
+    "Increased appetite",
+    "Trouble sleeping or nervousness if the dose is too high",
+    "Mild hair loss in the first months (mainly children)"
+   ],
+   "serious": [
+    "Chest pain or fast, irregular heartbeat",
+    "Tremor, sweating, weight loss, anxiety or feeling too hot (signs the dose is too high)",
+    "Severe allergic reaction",
+    "Bone loss if the dose stays too high for years"
+   ],
+   "precautions": "Take on an empty stomach with water, 30-60 minutes before breakfast, at the same time every day. Keep 4 hours apart from calcium, iron and antacids. Never stop or change the dose without advice. Needs regular TSH tests (usually 6-8 weeks after a dose change). Tell your doctor if you have heart disease or diabetes, or become pregnant - the dose often needs raising.",
+   "override": true
+  }
+ },
+ "interactions": [
+  {
+   "a": [
+    "fosfomycin"
+   ],
+   "b": [
+    "metoclopramide",
+    "domperidone"
+   ],
+   "severity": "moderate",
+   "message": "Medicines that speed up gut movement may lower fosfomycin levels in blood and urine, so it may work less well. Ask your doctor."
+  },
+  {
+   "a": [
+    "@FQ",
+    "ofloxacin"
+   ],
+   "b": "@CHELATORS",
+   "severity": "moderate",
+   "message": "Binds the antibiotic in the gut so less is absorbed. Take the antibiotic at least 2 hours before or 6 hours after."
+  },
+  {
+   "a": [
+    "doxycycline"
+   ],
+   "b": "@CHELATORS",
+   "severity": "moderate",
+   "message": "Binds the antibiotic in the gut so it may not be absorbed. Take at least 2-3 hours apart."
+  },
+  {
+   "a": [
+    "levothyroxine"
+   ],
+   "b": [
+    "calcium",
+    "iron",
+    "sucralfate"
+   ],
+   "severity": "moderate",
+   "message": "Lowers levothyroxine absorption. Take levothyroxine on an empty stomach and keep these 4 hours apart."
+  },
+  {
+   "a": [
+    "calcium"
+   ],
+   "b": [
+    "iron"
+   ],
+   "severity": "moderate",
+   "message": "Calcium lowers iron absorption. Take them at different times of day."
+  },
+  {
+   "a": [
+    "calcium"
+   ],
+   "b": [
+    "cholecalciferol"
+   ],
+   "severity": "moderate",
+   "message": "Often prescribed together on purpose (for example Shelcal), but too much of both can raise blood calcium too high. Follow the prescribed dose."
+  },
+  {
+   "a": [
+    "calcium",
+    "cholecalciferol"
+   ],
+   "b": [
+    "hydrochlorothiazide"
+   ],
+   "severity": "moderate",
+   "message": "Thiazide water tablets reduce calcium loss in urine - blood calcium can rise too high."
+  },
+  {
+   "a": [
+    "calcium"
+   ],
+   "b": [
+    "digoxin"
+   ],
+   "severity": "moderate",
+   "message": "High calcium can increase the risk of digoxin toxicity (slow or irregular heartbeat)."
+  },
+  {
+   "a": [
+    "calcium"
+   ],
+   "b": [
+    "verapamil"
+   ],
+   "severity": "moderate",
+   "message": "Calcium can reduce the effect of verapamil."
+  },
+  {
+   "a": [
+    "iron"
+   ],
+   "b": "@PPIS",
+   "severity": "moderate",
+   "message": "Acid-reducing medicines lower iron absorption. Iron levels may need checking."
+  },
+  {
+   "a": [
+    "folic acid"
+   ],
+   "b": [
+    "phenytoin"
+   ],
+   "severity": "moderate",
+   "message": "Folic acid can lower phenytoin levels, so seizure control may worsen. Needs monitoring."
+  },
+  {
+   "a": [
+    "progesterone"
+   ],
+   "b": [
+    "rifampicin",
+    "carbamazepine",
+    "phenytoin"
+   ],
+   "severity": "moderate",
+   "message": "May lower progesterone levels, so it may work less well."
+  },
+  {
+   "a": [
+    "sucralfate"
+   ],
+   "b": [
+    "warfarin",
+    "digoxin",
+    "phenytoin",
+    "ketoconazole"
+   ],
+   "severity": "moderate",
+   "message": "Sucralfate can reduce absorption of this medicine. Keep them at least 2 hours apart."
+  },
+  {
+   "a": "@NEW_NSAIDS",
+   "b": [
+    "warfarin"
+   ],
+   "severity": "severe",
+   "message": "NSAIDs with warfarin raise the risk of major stomach/intestinal bleeding."
+  },
+  {
+   "a": "@NEW_NSAIDS",
+   "b": [
+    "lithium"
+   ],
+   "severity": "severe",
+   "message": "NSAIDs can raise lithium to toxic levels."
+  },
+  {
+   "a": "@NEW_NSAIDS",
+   "b": [
+    "methotrexate"
+   ],
+   "severity": "severe",
+   "message": "NSAIDs can raise methotrexate levels and cause serious toxicity."
+  },
+  {
+   "a": "@NEW_NSAIDS",
+   "b": [
+    "ketorolac"
+   ],
+   "severity": "severe",
+   "message": "Ketorolac with other NSAIDs greatly raises the risk of stomach bleeding and kidney damage."
+  },
+  {
+   "a": "@NEW_NSAIDS",
+   "b": "@ACE_ARB",
+   "severity": "moderate",
+   "message": "NSAIDs can reduce blood-pressure control and strain the kidneys."
+  },
+  {
+   "a": "@NEW_NSAIDS",
+   "b": "@DIURETICS",
+   "severity": "moderate",
+   "message": "NSAIDs weaken the water-tablet effect and can strain the kidneys."
+  },
+  {
+   "a": "@NEW_NSAIDS",
+   "b": "@BETA",
+   "severity": "moderate",
+   "message": "NSAIDs can reduce the blood-pressure-lowering effect."
+  },
+  {
+   "a": "@NEW_NSAIDS",
+   "b": [
+    "spironolactone"
+   ],
+   "severity": "moderate",
+   "message": "NSAIDs can cause kidney problems and raise potassium."
+  },
+  {
+   "a": "@NEW_NSAIDS",
+   "b": "@STEROIDS",
+   "severity": "moderate",
+   "message": "Steroid plus NSAID increases the risk of stomach ulcers and bleeding."
+  },
+  {
+   "a": "@NEW_NSAIDS",
+   "b": "@SSRIS",
+   "severity": "moderate",
+   "message": "SSRIs plus NSAIDs increase the risk of stomach bleeding."
+  },
+  {
+   "a": "@NEW_NSAIDS",
+   "b": [
+    "aspirin",
+    "ibuprofen",
+    "diclofenac",
+    "naproxen",
+    "aceclofenac"
+   ],
+   "severity": "moderate",
+   "message": "Two NSAIDs together add risk without extra benefit (stomach, kidney, heart)."
+  },
+  {
+   "a": "@NEW_NSAIDS",
+   "b": [
+    "clopidogrel",
+    "ticagrelor"
+   ],
+   "severity": "moderate",
+   "message": "NSAIDs with antiplatelets raise bleeding risk."
+  },
+  {
+   "a": "@NEW_NSAIDS",
+   "b": "@DOACS",
+   "severity": "moderate",
+   "message": "NSAIDs add to the bleeding risk of blood thinners. Only combine on a doctor's instruction."
+  },
+  {
+   "a": "@NEW_NSAIDS",
+   "b": "@FQ",
+   "severity": "moderate",
+   "message": "NSAIDs with this antibiotic may raise the risk of seizures."
+  },
+  {
+   "a": "@NEW_NSAIDS",
+   "b": [
+    "ofloxacin"
+   ],
+   "severity": "moderate",
+   "message": "NSAIDs with this antibiotic may raise the risk of seizures."
+  },
+  {
+   "within": "@NEW_NSAIDS",
+   "severity": "moderate",
+   "message": "Two NSAIDs together add risk without extra benefit (stomach, kidney, heart)."
+  },
+  {
+   "a": [
+    "ofloxacin"
+   ],
+   "b": "@STEROIDS",
+   "severity": "moderate",
+   "message": "Together they raise the risk of tendon injury or rupture."
+  },
+  {
+   "a": [
+    "ofloxacin"
+   ],
+   "b": "@DIABETES",
+   "severity": "moderate",
+   "message": "Can cause blood sugar swings. Monitor glucose."
+  },
+  {
+   "a": [
+    "ofloxacin"
+   ],
+   "b": "@NEW_DIAB",
+   "severity": "moderate",
+   "message": "Can cause blood sugar swings. Monitor glucose."
+  },
+  {
+   "a": [
+    "ofloxacin"
+   ],
+   "b": [
+    "warfarin"
+   ],
+   "severity": "moderate",
+   "message": "Can increase warfarin effect. INR needs closer monitoring."
+  },
+  {
+   "a": [
+    "ofloxacin"
+   ],
+   "b": [
+    "domperidone",
+    "amiodarone"
+   ],
+   "severity": "severe",
+   "message": "Both can prolong the QT interval - risk of a dangerous irregular heartbeat."
+  },
+  {
+   "a": [
+    "ofloxacin"
+   ],
+   "b": [
+    "ondansetron",
+    "escitalopram",
+    "azithromycin",
+    "clarithromycin",
+    "levofloxacin",
+    "ciprofloxacin",
+    "hydroxychloroquine",
+    "fluconazole"
+   ],
+   "severity": "moderate",
+   "message": "Both can prolong the QT interval - risk of a dangerous irregular heartbeat."
+  },
+  {
+   "a": [
+    "warfarin"
+   ],
+   "b": [
+    "ketoconazole",
+    "ornidazole"
+   ],
+   "severity": "severe",
+   "message": "Can sharply raise warfarin effect (high INR) and cause serious bleeding."
+  },
+  {
+   "a": [
+    "warfarin"
+   ],
+   "b": [
+    "cefuroxime",
+    "cefpodoxime",
+    "ivermectin"
+   ],
+   "severity": "moderate",
+   "message": "May increase warfarin effect. INR needs closer monitoring."
+  },
+  {
+   "a": [
+    "ketoconazole"
+   ],
+   "b": [
+    "simvastatin"
+   ],
+   "severity": "severe",
+   "message": "Greatly raises simvastatin levels - high risk of severe muscle breakdown (rhabdomyolysis). Do not combine."
+  },
+  {
+   "a": [
+    "ketoconazole"
+   ],
+   "b": [
+    "atorvastatin"
+   ],
+   "severity": "moderate",
+   "message": "Raises statin levels and muscle-damage risk. Dose may need limiting."
+  },
+  {
+   "a": [
+    "ketoconazole"
+   ],
+   "b": [
+    "domperidone"
+   ],
+   "severity": "severe",
+   "message": "Raises domperidone levels - risk of a dangerous irregular heartbeat. Avoid."
+  },
+  {
+   "a": [
+    "ketoconazole"
+   ],
+   "b": [
+    "alprazolam"
+   ],
+   "severity": "severe",
+   "message": "Raises alprazolam levels sharply - heavy sedation and slowed breathing. Avoid."
+  },
+  {
+   "a": [
+    "ketoconazole"
+   ],
+   "b": [
+    "diazepam"
+   ],
+   "severity": "moderate",
+   "message": "Can raise diazepam levels, increasing sedation."
+  },
+  {
+   "a": [
+    "ketoconazole"
+   ],
+   "b": "@DOACS",
+   "severity": "severe",
+   "message": "Raises the blood-thinner level - serious bleeding risk. Avoid."
+  },
+  {
+   "a": [
+    "ketoconazole"
+   ],
+   "b": "@PPIS",
+   "severity": "moderate",
+   "message": "Acid reducers lower ketoconazole absorption, so it may not work."
+  },
+  {
+   "a": [
+    "ketoconazole"
+   ],
+   "b": [
+    "rifampicin"
+   ],
+   "severity": "severe",
+   "message": "Rifampicin lowers ketoconazole levels so it may not work. Avoid unless a specialist directs it."
+  },
+  {
+   "a": [
+    "ketoconazole"
+   ],
+   "b": [
+    "sildenafil",
+    "tadalafil"
+   ],
+   "severity": "moderate",
+   "message": "Raises PDE5 levels. A lower dose may be needed."
+  },
+  {
+   "a": [
+    "terbinafine"
+   ],
+   "b": [
+    "amitriptyline",
+    "metoprolol",
+    "propranolol",
+    "fluoxetine"
+   ],
+   "severity": "moderate",
+   "message": "Terbinafine slows the breakdown of this medicine, raising its level. Ask your doctor."
+  },
+  {
+   "a": [
+    "terbinafine"
+   ],
+   "b": [
+    "rifampicin"
+   ],
+   "severity": "moderate",
+   "message": "Rifampicin lowers terbinafine levels, so it may work less well."
+  },
+  {
+   "a": [
+    "tizanidine"
+   ],
+   "b": [
+    "ciprofloxacin"
+   ],
+   "severity": "severe",
+   "message": "Raises tizanidine many-fold - extreme sleepiness, very low blood pressure and slow pulse. Do not combine."
+  },
+  {
+   "a": [
+    "tizanidine"
+   ],
+   "b": "@SEDATING",
+   "severity": "moderate",
+   "message": "Added drowsiness and slowed breathing. Avoid driving and alcohol."
+  },
+  {
+   "a": [
+    "tizanidine"
+   ],
+   "b": [
+    "amlodipine",
+    "nifedipine"
+   ],
+   "severity": "moderate",
+   "message": "Added blood-pressure lowering - dizziness or fainting. Rise slowly."
+  },
+  {
+   "a": [
+    "tizanidine"
+   ],
+   "b": "@ACE_ARB",
+   "severity": "moderate",
+   "message": "Added blood-pressure lowering - dizziness or fainting. Rise slowly."
+  },
+  {
+   "a": [
+    "tizanidine"
+   ],
+   "b": "@BETA",
+   "severity": "moderate",
+   "message": "Added blood-pressure lowering - dizziness or fainting. Rise slowly."
+  },
+  {
+   "a": [
+    "tizanidine"
+   ],
+   "b": "@DIURETICS",
+   "severity": "moderate",
+   "message": "Added blood-pressure lowering - dizziness or fainting. Rise slowly."
+  },
+  {
+   "a": [
+    "chlorpheniramine"
+   ],
+   "b": "@SEDATING",
+   "severity": "moderate",
+   "message": "Added drowsiness and slowed reactions. Avoid driving and alcohol."
+  },
+  {
+   "a": [
+    "chlorpheniramine"
+   ],
+   "b": "@ANTIHISTAMINES",
+   "severity": "moderate",
+   "message": "Two antihistamines together is duplication - more drowsiness and dry mouth."
+  },
+  {
+   "a": [
+    "chlorpheniramine"
+   ],
+   "b": [
+    "betahistine"
+   ],
+   "severity": "moderate",
+   "message": "Antihistamines can block the effect of betahistine."
+  },
+  {
+   "a": [
+    "betahistine"
+   ],
+   "b": "@ANTIHISTAMINES",
+   "severity": "moderate",
+   "message": "Antihistamines can block the effect of betahistine."
+  },
+  {
+   "a": [
+    "chlorpheniramine"
+   ],
+   "b": [
+    "phenelzine"
+   ],
+   "severity": "severe",
+   "message": "MAO inhibitors intensify the side effects of antihistamines (confusion, very dry mouth, low blood pressure). Avoid."
+  },
+  {
+   "a": [
+    "dextromethorphan"
+   ],
+   "b": [
+    "phenelzine"
+   ],
+   "severity": "critical",
+   "message": "MAO inhibitor with dextromethorphan can cause serotonin syndrome (high fever, rigidity, seizures) - can be fatal. Never combine."
+  },
+  {
+   "a": [
+    "dextromethorphan"
+   ],
+   "b": "@SSRIS",
+   "severity": "moderate",
+   "message": "Risk of serotonin syndrome. Fluoxetine also raises dextromethorphan levels. Use only under medical supervision."
+  },
+  {
+   "a": [
+    "dextromethorphan"
+   ],
+   "b": [
+    "tramadol",
+    "amitriptyline"
+   ],
+   "severity": "moderate",
+   "message": "Risk of serotonin syndrome and seizures. Use only under medical supervision."
+  },
+  {
+   "a": [
+    "metoclopramide"
+   ],
+   "b": "@SSRIS",
+   "severity": "moderate",
+   "message": "Increased risk of serotonin syndrome and movement side effects."
+  },
+  {
+   "a": [
+    "metoclopramide"
+   ],
+   "b": [
+    "domperidone"
+   ],
+   "severity": "moderate",
+   "message": "Two similar gut-movement medicines together is duplication - more side effects. Do not combine unless a doctor directs it."
+  },
+  {
+   "a": [
+    "metoclopramide"
+   ],
+   "b": "@SEDATING",
+   "severity": "moderate",
+   "message": "Added drowsiness. Avoid driving and alcohol."
+  },
+  {
+   "a": [
+    "metoclopramide"
+   ],
+   "b": [
+    "digoxin"
+   ],
+   "severity": "moderate",
+   "message": "Can lower digoxin tablet absorption. Digoxin levels may need monitoring."
+  },
+  {
+   "a": "@NEW_DIAB",
+   "b": [
+    "insulin"
+   ],
+   "severity": "moderate",
+   "message": "Can cause low blood sugar. Often prescribed together on purpose - monitor glucose."
+  },
+  {
+   "a": "@NEW_DIAB",
+   "b": "@SULFONYLUREAS",
+   "severity": "moderate",
+   "message": "Can cause low blood sugar. Often prescribed together on purpose - monitor glucose."
+  },
+  {
+   "a": "@NEW_DIAB",
+   "b": [
+    "metformin",
+    "pioglitazone"
+   ],
+   "severity": "moderate",
+   "message": "Commonly prescribed together on purpose. Monitor glucose."
+  },
+  {
+   "a": "@NEW_DIAB",
+   "b": "@STEROIDS",
+   "severity": "moderate",
+   "message": "Steroids raise blood sugar - diabetes medicine doses may need adjusting."
+  },
+  {
+   "a": "@NEW_DIAB",
+   "b": "@FQ",
+   "severity": "moderate",
+   "message": "Can cause blood sugar swings. Monitor glucose."
+  },
+  {
+   "a": [
+    "vildagliptin"
+   ],
+   "b": "@ACE",
+   "severity": "moderate",
+   "message": "Together they raise the chance of swelling of the face or lips (angioedema)."
+  },
+  {
+   "a": [
+    "dapagliflozin"
+   ],
+   "b": "@DIURETICS",
+   "severity": "moderate",
+   "message": "Added fluid loss - risk of dehydration and low blood pressure."
+  },
+  {
+   "a": [
+    "dapagliflozin"
+   ],
+   "b": [
+    "empagliflozin"
+   ],
+   "severity": "severe",
+   "message": "Two SGLT2 inhibitors together - do not combine."
+  },
+  {
+   "within": [
+    "vildagliptin",
+    "sitagliptin",
+    "teneligliptin"
+   ],
+   "severity": "severe",
+   "message": "Two DPP-4 inhibitors together - do not combine."
+  },
+  {
+   "a": [
+    "cefuroxime",
+    "cefpodoxime"
+   ],
+   "b": [
+    "famotidine",
+    "pantoprazole",
+    "omeprazole",
+    "esomeprazole",
+    "rabeprazole"
+   ],
+   "severity": "moderate",
+   "message": "Lower stomach acid reduces absorption of this antibiotic, so it may work less well. Ask your doctor about timing."
+  },
+  {
+   "a": [
+    "albendazole"
+   ],
+   "b": [
+    "carbamazepine",
+    "phenytoin"
+   ],
+   "severity": "moderate",
+   "message": "These anticonvulsants lower albendazole levels, so it may work less well."
+  },
+  {
+   "a": [
+    "glucosamine",
+    "chondroitin"
+   ],
+   "b": [
+    "warfarin"
+   ],
+   "severity": "moderate",
+   "message": "May raise INR and bleeding risk. INR needs closer monitoring."
+  },
+  {
+   "a": [
+    "serratiopeptidase"
+   ],
+   "b": [
+    "warfarin",
+    "clopidogrel",
+    "ticagrelor"
+   ],
+   "severity": "moderate",
+   "message": "May add to the bleeding risk of blood thinners. Ask your doctor."
+  },
+  {
+   "a": [
+    "serratiopeptidase"
+   ],
+   "b": "@DOACS",
+   "severity": "moderate",
+   "message": "May add to the bleeding risk of blood thinners. Ask your doctor."
+  },
+  {
+   "a": [
+    "misoprostol"
+   ],
+   "b": [
+    "methotrexate"
+   ],
+   "severity": "moderate",
+   "message": "Pregnancy-related risk is added; ask your specialist before combining."
+  },
+  {
+   "a": [
+    "fenofibrate"
+   ],
+   "b": [
+    "warfarin"
+   ],
+   "severity": "moderate",
+   "message": "Fenofibrate can strengthen warfarin, raising the risk of bleeding. INR needs closer monitoring."
+  },
+  {
+   "a": [
+    "fenofibrate"
+   ],
+   "b": "@STATINS",
+   "severity": "moderate",
+   "message": "Often prescribed together on purpose (for example Arvast F), but the risk of muscle damage is higher. Report unexplained muscle pain or dark urine at once."
+  },
+  {
+   "a": [
+    "vitamin b complex"
+   ],
+   "b": [
+    "phenytoin"
+   ],
+   "severity": "moderate",
+   "message": "Vitamin B6 and folic acid in B-complex can lower phenytoin levels, so seizure control may worsen. Tell your doctor."
+  }
+ ],
+ "symptoms": [
+  {
+   "emergency": true,
+   "keywords": [
+    "shortness of breath",
+    "short of breath",
+    "breathless",
+    "can't breathe",
+    "cannot breathe",
+    "difficulty breathing",
+    "trouble breathing",
+    "hard to breathe",
+    "wheez"
+   ],
+   "title": "Breathing Difficulty - Treat as Possible Emergency",
+   "home_care": [
+    "Sit upright, stay calm and loosen tight clothing.",
+    "Use your reliever inhaler if a doctor has prescribed one.",
+    "Call your local emergency number (India: 112 / 108) if it is severe or does not ease quickly."
+   ],
+   "red_flags": [
+    "Blue or grey lips, or unable to speak full sentences.",
+    "Chest pain, fainting or confusion.",
+    "Swelling of the face or lips (possible allergic reaction)."
+   ],
+   "recommendation": "Sudden or severe breathing difficulty needs urgent medical help. Do not wait to see if it passes."
+  },
+  {
+   "emergency": true,
+   "keywords": [
+    "stroke",
+    "face drooping",
+    "slurred speech",
+    "slurring",
+    "weakness on one side",
+    "one side weak",
+    "arm weakness",
+    "sudden numbness"
+   ],
+   "title": "Possible Stroke - Emergency",
+   "home_care": [
+    "Call your local emergency number (India: 112 / 108) immediately.",
+    "Note the time the symptoms started and tell the doctors.",
+    "Do not give food, drink or tablets (including aspirin) unless medical staff say so."
+   ],
+   "red_flags": [
+    "Face drooping on one side.",
+    "Arm or leg weakness on one side.",
+    "Speech difficulty, confusion or sudden vision loss."
+   ],
+   "recommendation": "Stroke treatment works best within the first hours. Every minute counts - go to a hospital with a stroke unit."
+  },
+  {
+   "emergency": true,
+   "keywords": [
+    "allergic reaction",
+    "anaphylaxis",
+    "swelling of face",
+    "swelling of lips",
+    "swollen lips",
+    "swollen face",
+    "throat swelling",
+    "swollen tongue"
+   ],
+   "title": "Severe Allergic Reaction - Emergency",
+   "home_care": [
+    "Call your local emergency number (India: 112 / 108) immediately.",
+    "Stop taking the medicine or food you think caused it.",
+    "Use an adrenaline auto-injector if you have one. Sit up if breathing is hard, otherwise lie flat with legs raised."
+   ],
+   "red_flags": [
+    "Trouble breathing or wheezing.",
+    "Swelling of the lips, tongue or throat.",
+    "Dizziness, fainting or widespread hives."
+   ],
+   "recommendation": "A severe allergic reaction can become life-threatening within minutes. Get emergency help even if you feel better."
+  },
+  {
+   "emergency": true,
+   "keywords": [
+    "vomiting blood",
+    "vomit blood",
+    "blood in vomit",
+    "black stool",
+    "black stools",
+    "tarry stool",
+    "blood in stool",
+    "bloody stool",
+    "coughing blood"
+   ],
+   "title": "Bleeding Warning Signs - Emergency",
+   "home_care": [
+    "Go to the nearest hospital emergency department or call 112 / 108.",
+    "Do not eat or drink while waiting.",
+    "Take the list or packs of all your medicines (especially blood thinners, aspirin or painkillers) with you."
+   ],
+   "red_flags": [
+    "Dizziness, fainting or a fast heartbeat.",
+    "Severe belly pain.",
+    "Pale, cold or sweaty skin."
+   ],
+   "recommendation": "Vomiting blood or black stools can mean serious internal bleeding. Seek emergency care now."
+  },
+  {
+   "emergency": true,
+   "keywords": [
+    "low sugar",
+    "low blood sugar",
+    "hypoglyc",
+    "sugar is low",
+    "sugar dropped"
+   ],
+   "title": "Low Blood Sugar - Act Now",
+   "home_care": [
+    "If awake and able to swallow, take about 15 g of fast sugar: 3-4 glucose tablets, 3 teaspoons of sugar in water, or half a cup of juice.",
+    "Re-check sugar after 15 minutes and repeat if it is still low.",
+    "Once it is up, eat a snack or meal."
+   ],
+   "red_flags": [
+    "Confusion, unable to swallow, seizure or unconscious - call 112 / 108 and do not put food in the mouth.",
+    "Low sugar again and again.",
+    "Symptoms after a new diabetes medicine or missed meal."
+   ],
+   "recommendation": "Tell your doctor about any low-sugar episode - the medicine dose may need adjusting."
+  },
+  {
+   "emergency": true,
+   "keywords": [
+    "overdose",
+    "took too many tablets",
+    "took too many pills",
+    "swallowed too many",
+    "poisoning",
+    "accidentally swallowed"
+   ],
+   "title": "Overdose or Poisoning - Emergency",
+   "home_care": [
+    "Call your local emergency number (India: 112 / 108) immediately.",
+    "Do not make the person vomit unless medical staff tell you to.",
+    "Keep the packet or strip, and note the medicine name, amount and time."
+   ],
+   "red_flags": [
+    "Drowsiness, confusion or unresponsiveness.",
+    "Slow or difficult breathing.",
+    "Vomiting, seizures or an irregular heartbeat."
+   ],
+   "recommendation": "Even if the person feels fine, some overdoses (for example paracetamol or iron) cause harm hours later. Go to hospital."
+  },
+  {
+   "emergency": true,
+   "keywords": [
+    "suicid",
+    "kill myself",
+    "end my life",
+    "want to die",
+    "self harm",
+    "self-harm",
+    "hurt myself"
+   ],
+   "title": "Thoughts of Self-Harm - Please Reach Out Now",
+   "home_care": [
+    "You are not alone, and help is available right now.",
+    "Call Tele-MANAS (India, free, 24 hours): 14416 or 1-800-891-4416, or call 112.",
+    "Stay with someone you trust and keep medicines and sharp objects out of reach."
+   ],
+   "red_flags": [
+    "Having a plan or the means to hurt yourself.",
+    "Feeling unable to keep yourself safe.",
+    "Using alcohol or drugs along with these thoughts."
+   ],
+   "recommendation": "Please talk to a person now - a family member, friend, doctor or the helpline. These feelings can improve with support."
+  },
+  {
+   "keywords": [
+    "burning urine",
+    "burning while urinating",
+    "burning urination",
+    "painful urination",
+    "urine infection",
+    "urinary infection",
+    "frequent urination"
+   ],
+   "title": "Urinary Symptoms Guidance",
+   "home_care": [
+    "Drink plenty of water.",
+    "Do not hold urine for long periods.",
+    "Keep the genital area clean and dry."
+   ],
+   "red_flags": [
+    "Fever, chills, back or flank pain (possible kidney infection).",
+    "Blood in the urine.",
+    "Pregnancy, diabetes, or symptoms in a man or a child."
+   ],
+   "recommendation": "Urinary infections need a doctor's test and antibiotic. Do not take leftover antibiotics."
+  },
+  {
+   "keywords": [
+    "acidity",
+    "heartburn",
+    "acid reflux",
+    "indigestion",
+    "sour belching"
+   ],
+   "title": "Acidity / Heartburn Guidance",
+   "home_care": [
+    "Eat smaller meals and avoid lying down for 2-3 hours after eating.",
+    "Limit spicy, oily food, caffeine and alcohol.",
+    "Raise the head of your bed slightly."
+   ],
+   "red_flags": [
+    "Trouble or pain on swallowing.",
+    "Vomiting blood or black stools.",
+    "Unexplained weight loss, or chest pain with sweating or breathlessness."
+   ],
+   "recommendation": "See a doctor if it happens more than twice a week or lasts more than 2 weeks."
+  },
+  {
+   "keywords": [
+    "constipation",
+    "hard stools",
+    "not passing stool"
+   ],
+   "title": "Constipation Guidance",
+   "home_care": [
+    "Drink more water and eat fibre (fruits, vegetables, whole grains).",
+    "Stay active - a daily walk helps.",
+    "Do not ignore the urge to go."
+   ],
+   "red_flags": [
+    "Blood in the stool or black stools.",
+    "Severe belly pain, swelling or vomiting.",
+    "Sudden change in bowel habit or weight loss."
+   ],
+   "recommendation": "See a doctor if it lasts more than a week or you need laxatives often."
+  },
+  {
+   "keywords": [
+    "joint pain",
+    "knee pain",
+    "arthritis",
+    "swollen joint"
+   ],
+   "title": "Joint Pain Guidance",
+   "home_care": [
+    "Rest the joint, then keep it gently moving.",
+    "Warm compress for stiffness; cold pack for a swollen, hot joint.",
+    "Keep a healthy weight and use supportive footwear."
+   ],
+   "red_flags": [
+    "Hot, red, very swollen joint with fever.",
+    "Unable to bear weight after an injury.",
+    "Pain that wakes you at night or persists for weeks."
+   ],
+   "recommendation": "See a doctor if pain lasts more than 2 weeks, keeps returning or limits daily activity."
+  },
+  {
+   "keywords": [
+    "toothache",
+    "tooth pain",
+    "gum pain",
+    "swollen gum"
+   ],
+   "title": "Toothache Guidance",
+   "home_care": [
+    "Rinse with warm salt water.",
+    "Avoid very hot, cold or sugary food.",
+    "Paracetamol can ease pain - follow the label dose."
+   ],
+   "red_flags": [
+    "Swelling of the face or jaw.",
+    "Fever or difficulty swallowing or breathing.",
+    "Pain lasting more than a day or two."
+   ],
+   "recommendation": "Book a dental visit soon - painkillers only hide the problem."
+  },
+  {
+   "keywords": [
+    "period pain",
+    "menstrual cramps",
+    "painful periods",
+    "dysmenorrhea"
+   ],
+   "title": "Period Pain Guidance",
+   "home_care": [
+    "Warm compress or hot-water bag on the lower belly.",
+    "Light exercise and plenty of fluids.",
+    "A suitable painkiller may help - follow the label and take with food."
+   ],
+   "red_flags": [
+    "Very heavy bleeding (soaking a pad every hour).",
+    "Severe pain that stops daily life or is new.",
+    "Fever, fainting, or pain when pregnant."
+   ],
+   "recommendation": "See a gynaecologist if pain is severe, getting worse or periods are very heavy."
+  },
+  {
+   "keywords": [
+    "skin rash",
+    "rash",
+    "itching",
+    "hives"
+   ],
+   "title": "Skin Rash / Itching Guidance",
+   "home_care": [
+    "Avoid scratching and keep nails short.",
+    "Use mild, fragrance-free soap and moisturiser.",
+    "Stop any new product or medicine that started just before the rash and ask a doctor."
+   ],
+   "red_flags": [
+    "Rash with fever, blisters, peeling skin or mouth sores.",
+    "Swelling of the face or lips, or trouble breathing (emergency).",
+    "Rapidly spreading rash after starting a new medicine."
+   ],
+   "recommendation": "See a doctor if the rash lasts more than a few days or spreads."
+  },
+  {
+   "keywords": [
+    "insomnia",
+    "cannot sleep",
+    "can't sleep",
+    "trouble sleeping",
+    "poor sleep"
+   ],
+   "title": "Sleep Problems Guidance",
+   "home_care": [
+    "Keep fixed sleep and wake times.",
+    "Avoid caffeine and screens in the evening.",
+    "Keep the room dark, cool and quiet."
+   ],
+   "red_flags": [
+    "Loud snoring with pauses in breathing.",
+    "Low mood or thoughts of self-harm.",
+    "Poor sleep lasting more than 3-4 weeks."
+   ],
+   "recommendation": "See a doctor if it lasts more than a few weeks. Do not use sleeping tablets without advice."
+  },
+  {
+   "keywords": [
+    "anxiety",
+    "panic attack",
+    "feeling anxious",
+    "very stressed"
+   ],
+   "title": "Anxiety / Stress Guidance",
+   "home_care": [
+    "Slow breathing: breathe in for 4 seconds, out for 6, for a few minutes.",
+    "Regular exercise, sleep and limited caffeine.",
+    "Talk to someone you trust."
+   ],
+   "red_flags": [
+    "Chest pain or fainting during an attack.",
+    "Thoughts of self-harm.",
+    "Anxiety that stops you working, studying or sleeping."
+   ],
+   "recommendation": "See a doctor or counsellor if it lasts more than 2 weeks or affects daily life. Tele-MANAS (14416) offers free support in India."
+  },
+  {
+   "keywords": [
+    "high sugar",
+    "high blood sugar",
+    "hyperglyc"
+   ],
+   "title": "High Blood Sugar Guidance",
+   "home_care": [
+    "Drink water and avoid sugary drinks.",
+    "Take your diabetes medicine as prescribed - do not skip it.",
+    "Check your sugar again as your doctor advised."
+   ],
+   "red_flags": [
+    "Vomiting, belly pain, fast breathing or fruity breath.",
+    "Extreme thirst, confusion or drowsiness.",
+    "Sugar staying very high on repeated checks."
+   ],
+   "recommendation": "Call your doctor the same day if sugar stays high; go to hospital if you have red-flag signs."
+  },
+  {
+   "keywords": [
+    "ear pain",
+    "earache",
+    "ear ache"
+   ],
+   "title": "Ear Pain Guidance",
+   "home_care": [
+    "Warm compress over the ear.",
+    "Do not put oil, drops or objects in the ear unless a doctor advises.",
+    "Paracetamol can ease pain - follow the label dose."
+   ],
+   "red_flags": [
+    "Fever, discharge or hearing loss.",
+    "Swelling or redness behind the ear.",
+    "Dizziness or severe pain."
+   ],
+   "recommendation": "See a doctor if pain lasts more than 2 days, or sooner for a child."
+  },
+  {
+   "keywords": [
+    "red eye",
+    "eye pain",
+    "eye redness",
+    "itchy eyes",
+    "watery eyes"
+   ],
+   "title": "Eye Redness / Pain Guidance",
+   "home_care": [
+    "Do not rub the eye.",
+    "Wash hands often; do not share towels.",
+    "Remove contact lenses and use clean water or sterile saline rinses."
+   ],
+   "red_flags": [
+    "Loss of vision or severe pain.",
+    "Sensitivity to light or a very red eye after injury.",
+    "Discharge with fever."
+   ],
+   "recommendation": "See an eye doctor the same day for pain, vision change or injury."
+  },
+  {
+   "keywords": [
+    "muscle pain",
+    "body ache",
+    "body pain",
+    "sprain"
+   ],
+   "title": "Muscle Pain / Sprain Guidance",
+   "home_care": [
+    "Rest, then gentle movement.",
+    "Cold pack for the first 48 hours after an injury, then warmth.",
+    "Paracetamol may help - follow the label dose."
+   ],
+   "red_flags": [
+    "Unable to bear weight, or obvious deformity.",
+    "Dark urine with severe muscle pain.",
+    "Numbness, weakness or fever."
+   ],
+   "recommendation": "See a doctor if pain lasts more than 1-2 weeks or follows a fall or injury."
+  }
+ ],
+ "symptom_extra_keywords": {
+  "Chest Pain - Treat as Possible Emergency": [
+   "pain in chest",
+   "pain in my chest",
+   "chest is paining",
+   "chest heaviness",
+   "heart attack",
+   "left arm pain",
+   "pain in left arm",
+   "pain in jaw"
+  ]
+ },
+ "combos": {
+  "ultrafen plus": [
+   "diclofenac",
+   "misoprostol"
+  ],
+  "ultracal d": [
+   "calcium",
+   "cholecalciferol"
+  ],
+  "shelcal": [
+   "calcium",
+   "cholecalciferol"
+  ],
+  "cartilix": [
+   "glucosamine",
+   "chondroitin"
+  ],
+  "cartilex": [
+   "glucosamine",
+   "chondroitin"
+  ],
+  "augmentin": [
+   "amoxicillin",
+   "clavulanic acid"
+  ],
+  "amoxiclav": [
+   "amoxicillin",
+   "clavulanic acid"
+  ],
+  "co amoxiclav": [
+   "amoxicillin",
+   "clavulanic acid"
+  ],
+  "enzoflam": [
+   "diclofenac",
+   "paracetamol",
+   "serratiopeptidase"
+  ],
+  "pan d": [
+   "pantoprazole",
+   "domperidone"
+  ],
+  "arvast f": [
+   "atorvastatin",
+   "fenofibrate"
+  ],
+  "arvast a": [
+   "atorvastatin",
+   "aspirin"
+  ]
+ }
+}

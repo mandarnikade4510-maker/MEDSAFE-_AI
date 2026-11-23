@@ -1,0 +1,18 @@
+{
+  "Aspirin": {
+    "Warfarin": 10,
+    "Ibuprofen": 4
+  },
+  "Warfarin": {
+    "Aspirin": 10
+  },
+  "Ibuprofen": {
+    "Aspirin": 4
+  },
+  "Metformin": {
+    "Insulin": 6
+  },
+  "Insulin": {
+    "Metformin": 6
+  }
+}
